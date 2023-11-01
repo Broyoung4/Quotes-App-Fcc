@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+}  
+
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 50px;
+  margin: 0 auto;
+ /* margin-bottom: 20px;
+  width: 500px;
+  height: 500px;*/
+}
+
+footer {
+ float: right;
+}
+
+#creator {
+  /*text-align: center;*/
+  position: absolute;
+  top: 700px;
+}
+
+.but {
+  padding-top: 60px;
+}
